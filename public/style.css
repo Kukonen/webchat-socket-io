@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#Messages {
+    height: 80%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+}
+#Input {
+    height: 20%;
+    display: flex;
+    background-color: #ededed;
+}
+#Form {
+    display: flex;
+    margin: auto;
+}
+#Input-text {
+    font-size: 30px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+}
+#Input-button {
+    font-size: 30px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    cursor: pointer;
+}
+.Message {
+    font-size: 30px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto 2% auto;
+}
+
+#Input-file-block {
+    font-size: 30px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    cursor: pointer;
+}
+
+#Input-file-input {
+    display: none;
+}
